@@ -8,9 +8,20 @@ A lightweight implementation of Redux's `createStore` function for state managem
 - **`dispatch(action)`**: Updates the state by dispatching an action to the reducer.
 - **`subscribe(listener)`**: Allows registering a listener that will be called whenever the state updates. Returns an unsubscribe function to stop listening.
 
+## Repository
+
+[GitHub Repository](https://github.com/your-username/arjuns-custom-redux)
+
+
 ## Installation
 
 Install the package via npm:
 
 ```bash
 npm install arjuns-custom-redux
+
+### ES Module (import)
+import { createStore } from 'arjuns-custom-redux';
+
+### CommonJS (require)
+const { createStore } = require('arjuns-custom-redux');

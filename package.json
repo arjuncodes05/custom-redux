@@ -1,0 +1,14 @@
+{
+    "name": "arjuns-custom-redux",
+    "version": "1.0.0",
+    "main": "customCreateStore.cjs",
+    "module": "customCreateStore.mjs",
+    "exports":{
+        "import": "./customCreateStore.mjs",
+        "require" : "./customCreateStore.cjs"
+    },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/arjuncodes05/custom-redux.git"
+    }
+}
